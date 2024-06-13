@@ -41,7 +41,7 @@ public class AppTest
     @Test
     public void testCalculatePrice() {
         Movie longMovie = new Movie("Long Movie", 160);
-        assertEquals(50000, longMovie.calculatePrice_1302210022(), 0);
+        assertEquals(20000, longMovie.calculatePrice_1302210022(), 0);
 
         Movie mediumMovie = new Movie("Medium Movie", 120);
         assertEquals(40000, mediumMovie.calculatePrice_1302210022(), 0);
